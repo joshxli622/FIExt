@@ -1,0 +1,47 @@
+import property-set ;
+import common ;
+import errors : user-error ;
+
+BOOST_HOME = [ cfg BOOST_HOME ] ;
+if ! $(BOOST_HOME) {
+  user-error "Boost library location not specified.  Please make sure BOOST_HOME is set." ;
+}
+
+BOOST_VERSION = [ MATCH .*boost_([a-zA-Z0-9._]+)-.*$ : $(BOOST_HOME) ] ;
+BOOST_INCL = $(BOOST_HOME)/include ;
+BOOST_LIB = $(BOOST_HOME)/lib ;
+
+rule boost-tag ( name : type ? : property-set ) {
+    if $(type) in SEARCHED_LIB {
+      local properties = [ $(property-set).raw ] ;
+      local prefix = boost ;
+      if <link>static in $(properties) {
+	prefix = libboost ;
+      }
+      local result = [ common.format-name
+                         <base> <toolset> <threading> <runtime> -$(BOOST_VERSION)
+                         : $(prefix)_$(name) : $(type) : $(property-set) ] ;
+      return $(result) ;
+    }
+}
+
+rule boost-lib ( base : args * ) {
+  lib $(base) : : <tag>@$(__name__).boost-tag <search>$(BOOST_LIB) $(args) ;
+  alias static_$(base) : $(base) : <link>static <search>$(BOOST_LIB) $(args) ;
+}
+
+project boost
+    : usage-requirements 
+        <include>$(BOOST_INCL)
+        # disable auto-linking for all targets here,
+        # primarily because it caused troubles with V2
+        <define>BOOST_ALL_NO_LIB=1
+;
+
+
+boost-lib unit_test_framework ;
+boost-lib date_time ;
+boost-lib program_options ;
+boost-lib filesystem ;
+boost-lib system ;
+boost-lib thread ;

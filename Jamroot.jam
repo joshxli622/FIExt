@@ -1,0 +1,46 @@
+#
+# Jamroot build configuration
+#
+# For Boost Build documentation please see:
+#   http://www.boost.org/doc/tools/build/doc/html/index.html
+#
+# For Boost Jam documentation please see:
+#   http://www.boost.org/doc/tools/jam/index.html
+#
+path-constant TOP : . ;
+
+include $(TOP)/build/base.jam ;
+
+prebuilt $(TOP)/build/libs/boost ;
+prebuilt $(TOP)/build/libs/pirate ;
+prebuilt $(TOP)/build/libs/pirate-tools ;
+
+project
+    : requirements
+        <toolset>msvc:<define>_CRT_SECURE_NO_DEPRECATE
+        <toolset>msvc:<define>_SCL_SECURE_NO_DEPRECATE
+        <toolset>msvc:<define>NOMINMAX
+        <toolset>msvc:<cxxflags>-Wp64
+        <toolset>msvc,<variant>release:<cxxflags>-Oy-
+        <toolset>msvc,<variant>release:<cxxflags>/Z7
+        <toolset>msvc,<variant>release:<linkflags>/DEBUG
+        <toolset>gcc:<warnings>on
+        <toolset>darwin:<architecture>x86
+        <toolset>darwin:<address-model>64
+	<target-os>solaris:<architecture>sparc
+	<target-os>solaris:<instruction-set>v9
+	<target-os>solaris:<address-model>64
+        <target-os>solaris:<xdll-path>/usr/lib/sparcv9
+        <target-os>solaris:<xdll-path>/usr/local/lib/sparcv9
+#        <define>BOOST_PROGRAM_OPTIONS_DYN_LINK
+        <tag>@pirate-tag
+;
+
+use-project /FIExt/strat : strat ;
+use-project /FIExt/sim : sim ;
+
+alias all :
+      /FIExt/strat
+      /FIExt/sim
+;
+

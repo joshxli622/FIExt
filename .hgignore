@@ -1,0 +1,30 @@
+syntax: glob
+cscope.*
+dist*
+ALL-pre_build.py
+ALL-post_build.py
+
+syntax: regexp
+(?i)\.dep$
+(?i)\.exp$
+(?i)\.bak$
+(?i)\.exe$
+(?i)\.dll$
+(?i)\.lib$
+(?i)\.obj$
+(?i)\.manifest$
+(?i)\.vcproj\..*$
+(?i)\.vcproj$
+(?i)\.sln$
+(?i)\.suo$
+(?i)\.ncb$
+(?i)\.pdb$
+(?i)\.idb$
+(?i)\.ilk$
+(?i)\.rsp$
+(?i)\.pyc$
+(?i)BuildLog.htm$
+^\.waf-.*
+^\.lock-wscript
+^bld(\\|/).*
+(?i)bin/.*?/(?:debug|release)/.*

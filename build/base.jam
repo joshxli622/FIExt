@@ -1,0 +1,40 @@
+import virtual-target ;
+import property-set ;
+import path ;
+import modules ;
+import feature ;
+
+feature.set-default threading : multi ;
+
+
+rule prebuilt ( location ) {
+  local saved-project = [ modules.peek project : .current-project ] ;
+  local jamfile-to-load = [ project.find-jamfile $(location) ] ;
+  local module-name = Jamfile<$(location)> ;
+  module $(module-name) {
+    import project : initialize ;
+    initialize [ CALLER_MODULE -1 ] ;        
+
+    rule cfg ( var ) {
+      return [ modules.peek site-config : $(var) ] ;
+    }
+  }
+  modules.load $(module-name) :  [ path.native $(jamfile-to-load) ] : . ;
+  modules.poke project : .current-project : $(saved-project) ;
+}
+
+rule pirate-tag ( name : type ? : property-set ) {
+    if $(type) in SHARED_LIB IMPORT_LIB STATIC_LIB EXE {
+      local result = ;
+      local properties = [ $(property-set).raw ] ;
+      if <variant>debug in $(properties) {
+	result = $(name)_d ;
+      } else {
+	result = $(name) ;
+      }
+      result = [ virtual-target.add-prefix-and-suffix
+          $(result:J=) : $(type) : $(property-set) ] ;
+
+      return $(result) ;
+    }
+}

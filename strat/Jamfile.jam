@@ -1,0 +1,25 @@
+project FIExt/strat
+    : requirements
+        <include>./src
+        <library>/pirate//pirate-utils
+        <library>/pirate//pirate-tr
+        <library>/pirate-tools//pirate-inds
+        <library>/boost//date_time
+        <library>/boost//system
+        <library>/boost//program_options
+        <source>/pirate//headers
+    : usage-requirements
+        <include>./src
+;
+
+lib FIExt-strat 
+    : [ glob-tree *.cpp : test ] 
+    : <define>PIRATE_DYN_LINK 
+      <link>static
+;
+exe FIExt-strattest 
+    : [ glob-tree *.cpp : src ]
+    : <include>./test 
+      <define>BOOST_TEST_DYN_LINK
+      <library>/boost//unit_test_framework 
+;

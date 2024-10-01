@@ -1,0 +1,43 @@
+import os ;
+import errors : user-error ;
+import virtual-target ;
+
+local PIRATE_HOME = [ cfg PIRATE_HOME ] ;
+if ! $(PIRATE_HOME) {
+  user-error "PIRATE library location not specified.  Please make sure PIRATE_HOME is set." ;
+}
+
+rule prebuilt-pirate-tag ( name : type ? : property-set ) {
+    if $(type) in SEARCHED_LIB {
+      local result = ;
+      local properties = [ $(property-set).raw ] ;
+      if <variant>debug in $(properties) {
+	result = $(name)_d ;
+      } else {
+	result = $(name) ;
+      }
+      result = [ virtual-target.add-prefix-and-suffix
+          $(result:J=) : $(type) : $(property-set) ] ;
+
+      return $(result) ;
+    }
+}
+
+rule pirate-lib ( base ) {
+  lib pirate-$(base) 
+    : 
+    : <search>$(PIRATE_HOME)/lib
+      <tag>@prebuilt-pirate-tag
+  ;
+}
+
+project pirate
+    : usage-requirements 
+        <include>$(PIRATE_HOME)/include
+;
+
+pirate-lib tr ;
+pirate-lib utils ;
+alias headers : : :
+      : <include>$(PIRATE_HOME)/include
+;

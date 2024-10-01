@@ -1,0 +1,14 @@
+#  This file is used to configure your Boost.Build installation. Please read
+#  the user manual to find out where to put it:
+#  http://www.boost.org/doc/tools/build/doc/html/bbv2/reference.html#bbv2.reference.init.config
+
+# #
+# # I would recommand keeping it under the name site-config.jam in your $HOME directory.
+# #
+
+import os ;
+
+BOOST_HOME = [ os.environ BOOST_HOME ] ;
+GOOGLE_SPARSEHASH_HOME = [ os.environ GOOGLE_SPARSEHASH_HOME ] ;
+PIRATE_HOME = [ os.environ PIRATE_HOME ] ;
+PIRATE_TOOLS_HOME = [ os.environ PIRATE_TOOLS_HOME ] ;

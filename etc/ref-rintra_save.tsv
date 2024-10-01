@@ -1,0 +1,216 @@
+MktID	BB	RIC	MarketName	Type	Sub	Sector	Venue	Ccy	PtVal	MinTkSz	Weight	TradableMnth	Cmsn	Slpg	Rollover	IBRoot	IBExch	Country	ExchTimeZone	ExchGMTOffset	PitStartExch	PitEndExch	SettlementWindow	Note
+1101	C A Comdty	C	Corn@CBT	FUT		Agriculture/Corn	CBT	USD	50	0.25	1	[001010101001]	0	0	0	ZC	ECBOT	US	America/Chicago	-6	8:30	13:15	13:14:00-13:15:00	
+1102	ACA Comdty	DCC	Corn@DCE	FUT		Agriculture/Corn	DCE	CNY	10	1	1	[100010001000]	0	0	-30			CN	Asia/Shanghai	8	13:30	15:00		
+1103	EPA Comdty	EMA	Maize@EOP	FUT		Agriculture/Corn	EOP	EUR	50	0.25	1	[101001010010]	0	0	0	EMA	MATIF	FR	Europe/Paris	1	10:45	18:30		
+1201	VVA Comdty		Cotton@ZCE	FUT		Agriculture/Fiber	ZCE	CNY	5	5	1	[101010101010]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+1202	CTA Comdty	CT	Cotton No. 2@NYB	FUT		Agriculture/Fiber	NYB	USD	500	0.01	1	[001010100001]	0	0	0	CT	NYBOT	US	America/New_York	-5	21:00	14:20	14:14:00-14:15:00	
+1301	PALA Comdty	DCP	Palm Oil@DCE	FUT		Agriculture/Food	DCE	CNY	10	2	1	[100010001000]	0	0	-30			CN	Asia/Shanghai	8	13:30	15:00		
+1302	CBA Comdty		White Sugar@ZCE	FUT		Agriculture/Food	ZCE	CNY	10	1	1	[101010101010]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+1303	SBA Comdty	SB	Sugar No. 11@NYB	FUT		Agriculture/Food	NYB	USD	1120	0.01	1	[001010100100]	0	0	-10	SB	NYBOT	US	America/New_York	-5	3:30	13:00	12:53:00-12:55:00	
+1304	DCEA Comdty		Egg@DCE	FUT		Agriculture/Food	DCE	CNY	10	1	1	[111111001111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+1305	QCA Comdty	LCC	London Cocoa No. 7@LIF	FUT		Agriculture/Food	LIF	GBP	10	1	1	[001010101001]	0	0	0	C	ICEEUSOFT	GB	Europe/London	0	9:30	16:50		
+1306	CCA Comdty	CC	Cocoa@NYB	FUT		Agriculture/Food	NYB	USD	10	1	1	[001010101001]	0	0	-5	CC	NYBOT	US	America/New_York	-5	4:45	13:30	11:48:00-11:50:00	
+1307	KCA Comdty	KC	Coffee C@NYB	FUT		Agriculture/Food	NYB	USD	375	0.05	1	[001010101001]	0	0	-10	KC	NYBOT	US	America/New_York	-5	4:15	13:30	13:23:00-13:25:00	
+1308	DFA Comdty	LRC	Robusta Coffee@LIF	FUT		Agriculture/Food	LIF	USD	10	1	1	[101010101010]	0	0	0	D	ICEEUSOFT	GB	Europe/London	0	9:00	17:30		
+1309	QWA Comdty	LSU	Sugar@LIF	FUT		Agriculture/Food	LIF	USD	50	0.1	1	[001010010101]	0	0	-20	W	ICEEUSOFT	GB	Europe/London	0	8:45	18:30		
+1310	DAA Comdty	DA	Milk@CME	FUT		Agriculture/Food	CME	USD	2000	0.01	1	[111111111111]	0	0	0	DA	GLOBEX	US	America/Chicago	-6	9:05	13:10		
+1311	JOA Comdty	OJ	FCOJ@NYB	FUT		Agriculture/Food	NYB	USD	150	0.05	1	[101010101010]	0	0	0	OJ	NYBOT	US	America/New_York	-5	8:00	14:00	13:29:00-13:30:00	
+1401	LCA Comdty	LC	Live Cattle@CME	FUT		Agriculture/Live Stock	CME	USD	400	0.025	1	[010101010101]	0	0	0	LE	GLOBEX	US	America/Chicago	-6	9:05	13:00	12:59:30-13:00:00	
+1402	LHA Comdty	LH	Lean Hogs@CME	FUT		Agriculture/Live Stock	CME	USD	400	0.025	1	[010111110101]	0	0	0	HE	GLOBEX	US	America/Chicago	-6	9:05	13:00	12:59:30-13:00:00	
+1403	FCA Comdty	FC	Feeder Cattle@CME	FUT		Agriculture/Live Stock	CME	USD	500	0.025	1	[101110011110]	0	0	0	GF	GLOBEX	US	America/Chicago	-6	9:05	13:00		
+1501	ZRRA Comdty		Rapeseed@ZCE	FUT		Agriculture/Grain	ZCE	CNY	10	1	1	[101010111010]	0	0	0			CN	Asia/Shanghai	8	16:00	20:50		
+1502	ZROA Comdty		Rapeseed Oil@ZCE	FUT		Agriculture/Grain	ZCE	CNY	10	2	1	[101010101010]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+1503	RSA Comdty	RS	Canola@WCE	FUT		Agriculture/Grain	WCE	CAD	20	0.1	1	[101010100010]	0	0	0			CA	America/Winnipeg	-6	19:00	13:15		
+1504	IJA Comdty	COM	Euro Rapeseed@EOP	FUT		Agriculture/Grain	EOP	EUR	50	0.25	1	[010010010010]	0	0	-12	ECO	MATIF	FR	Europe/Paris	1	10:45	18:30		
+1505	IRIA Comdty		Early Indica Rice@ZCE	FUT		Agriculture/Grain	ZCE	CNY	20	1	1	[101010101010]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+1506	O A Comdty	O	Oats@CBT	FUT		Agriculture/Grain	CBT	USD	50	0.25	1	[001010100001]	0	0	0	ZO	ECBOT	US	America/Chicago	-6	8:30	13:15		
+1507	RRA Comdty	RR	Rough Rice@CBT	FUT		Agriculture/Grain	CBT	USD	2000	0.005	1	[101010101010]	0	0	0	ZR	ECBOT	US	America/Chicago	-6	8:30	13:15		
+1601	AEA Comdty	DSM	Soymeal@DCE	FUT		Agriculture/Soy	DCE	CNY	10	1	1	[100010001000]	0	0	-30			CN	Asia/Shanghai	8	13:30	15:00		
+1602	SHA Comdty	DBY	Soybean Oil@DCE	FUT		Agriculture/Soy	DCE	CNY	10	2	1	[100010001000]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+1603	AKA Comdty	DSA	Soybean No. 1@DCE	FUT		Agriculture/Soy	DCE	CNY	10	1	1	[100010001000]	0	0	-30			CN	Asia/Shanghai	8	13:30	15:00		
+1604	S A Comdty	S	Soybean@CBT	FUT		Agriculture/Soy	CBT	USD	50	0.25	1	[101010111010]	0	0	-10	ZS	ECBOT	US	America/Chicago	-6	8:30	13:15	13:14:00-13:15:00	
+1605	SMA Comdty	SM	Soybean Meal@CBT	FUT		Agriculture/Soy	CBT	USD	100	0.1	1	[101010111001]	0	0	-10	ZM	ECBOT	US	America/Chicago	-6	8:30	13:15	13:14:00-13:15:00	skip contract V 
+1606	BOA Comdty	BO	Soybean Oil@CBT	FUT		Agriculture/Soy	CBT	USD	600	0.01	1	[101010111001]	0	0	-10	ZL	ECBOT	US	America/Chicago	-6	8:30	13:15	13:14:00-13:15:00	skip contract V 
+1701	W A Comdty	W	Winter Wheat@CBT	FUT		Agriculture/Wheat	CBT	USD	50	0.25	1	[001010101001]	0	0	-10	ZW	ECBOT	US	America/Chicago	-6	8:30	13:15	13:14:00-13:15:00	
+1703	KWA Comdty	KW	Hard Red Wheat@CBT	FUT		Agriculture/Wheat	CBT	USD	50	0.25	1	[001010101001]	0	0	-10	KE	ECBOT	US	America/Chicago	-6	8:30	13:15	13:14:00-13:15:00	
+1704	VNA Comdty		Strong Gluten Wheat@ZCE	FUT		Agriculture/Wheat	ZCE	CNY	20	1	1	[101010101010]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+1705	MWA Comdty	1MWE	Red Spring Wheat@MGE	FUT		Agriculture/Wheat	MGE	USD	50	0.25	1	[001010101001]	0	0	0			US	America/Chicago	-6	19:00	13:30		
+1706	CAA Comdty	BL2	Milling Wheat@EOP	FUT		Agriculture/Wheat	EOP	EUR	50	0.25	1	[101010000010]	0	0	0	EBM	MATIF	FR	Europe/Paris	1	10:45	18:30		
+2101	KEEA Comdty	DCJ	Coke@DCE	FUT		Energy/Coal	DCE	CNY	100	1	1	[100010001000]	0	0	-30			CN	Asia/Shanghai	8	13:30	15:00		
+2102	CKCA Comdty		Coking Coal @DCE	FUT		Energy/Coal	DCE	CNY	60	1	1	[100010001000]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+2103	TRCA Comdty		Thermal Coal@ZCE	FUT		Energy/Coal	ZCE	CNY	200	0.2	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+2201	COA Comdty	LCO	Brent Crude Oil@ICE	FUT		Energy/Crude Oil	ICE	USD	1000	0.01	1	[111111111111]	0	0	-20	COIL	IPE	GB	Europe/London	0	1:00	23:00	19:28:00-19:28:00	
+2202	CLA Comdty	CL	WTI Crude Oil@NYM	FUT		Energy/Crude Oil	NYM	USD	1000	0.01	1	[111111111111]	0	0	-20	CL	NYMEX	US	America/New_York	-5	9:00	14:30	14:28:00-14:30:00	
+2203	ENA Comdty	WTCL	WTI Crude Oil@ICE	FUT		Energy/Crude Oil	ICE	USD	1000	0.01	1	[111111111111]	0	0	-20	WTI	IPE	GB	Europe/London	0	1:00	23:00		
+2301	NGA Comdty	NG	Natral Gas@NYM	FUT		Energy/Natural Gas	NYM	USD	10000	0.001	1	[111111111111]	0	0	-15	NG	NYMEX	US	America/New_York	-5	9:00	14:30	14:28:00-14:30:00	
+2302	FNA Comdty		Natral Gas@ICE	FUT		Energy/Natural Gas	ICE	GBP	280	0.01	1	[111111111111]	0	0	-10	NGF	IPE	GB	Europe/London	0	7:00	17:00		
+2401	QSA Comdty	LGO	Gasoil@ICE	FUT		Energy/Refined Product	ICE	USD	100	0.25	1	[111111111111]	0	0	-10	GOIL	IPE	GB	Europe/London	0	1:00	23:00	16:27:00-16:27:00	
+2402	HOA Comdty	HO	Heating Oil@NYM	FUT		Energy/Refined Product	NYM	USD	42000	0.0001	1	[111111111111]	0	0	-10	HO	NYMEX	US	America/New_York	-5	9:00	14:30	14:28:00-14:30:00	
+2403	XBA Comdty	RB	Gasoline RBOB@NYM	FUT		Energy/Refined Product	NYM	USD	42000	0.0001	1	[111111111111]	0	0	-10	RB	NYMEX	US	America/New_York	-5	9:00	14:30	14:28:00-14:30:00	
+2404	NVA Comdty	LHO	Heating Oil@ICE	FUT		Energy/Refined Product	ICE	USD	420	0.01	1	[111111111111]	0	0	-10	HOIL	IPE	GB	Europe/London	0	1:00	23:00		
+2405	PGA Comdty	LRB	Gasoline RBOB@ICE	FUT		Energy/Refined Product	ICE	USD	420	0.01	1	[111111111111]	0	0	-10	RBOT	IPE	GB	Europe/London	0	1:00	23:00		
+2406	BITA Comdty		Bitumen@SHF	FUT		Energy/Refined Product	SHF	CNY	10	2	1	[111111111111]	0	0	-10			CN	Asia/Shanghai	8	13:30	15:00		
+3101	TYA Comdty	ZN	10-year US Treasury@CBT	FUT		Financial/Bonds	CBT	USD	1000	0.015625	1	[001001001001]	0	0	0	ZN	ECBOT	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3102	RXA Comdty	FGBL	Euro Bund@EUX	FUT		Financial/Bonds	EUX	EUR	1000	0.01	1	[001001001001]	0	0	0	GBL	DTB	DE	Europe/Berlin	1	8:00	22:00	17:15:00-17:15:00	
+3103	FVA Comdty	ZF	5-year US Treasury@CBT	FUT		Financial/Bonds	CBT	USD	1000	0.0078125	1	[001001001001]	0	0	0	ZF	ECBOT	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3104	OEA Comdty	FGBM	Euro Bobl@EUX	FUT		Financial/Bonds	EUX	EUR	1000	0.01	1	[001001001001]	0	0	0	GBM	DTB	DE	Europe/Berlin	1	8:00	22:00	17:15:00-17:15:00	
+3105	DUA Comdty	FGBS	Euro Schatz@EUX	FUT		Financial/Bonds	EUX	EUR	1000	0.005	1	[001001001001]	0	0	0	GBS	DTB	DE	Europe/Berlin	1	8:00	22:00		
+3106	USA Comdty	ZB	30-year US Treasury @CBT	FUT		Financial/Bonds	CBT	USD	1000	0.03125	1	[001001001001]	0	0	0	ZB	ECBOT	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3107	G A Comdty	FLG	Long Gilt@LIF	FUT		Financial/Bonds	LIF	GBP	1000	0.01	1	[001001001001]	0	0	0	R	LIFFE	GB	Europe/London	0	8:00	18:00		
+3108	TUA Comdty	ZT	2-Year US Treasury@CBT	FUT		Financial/Bonds	CBT	USD	2000	0.0078125	1	[001001001001]	0	0	0	ZT	ECBOT	US	America/Chicago	-6	7:20	14:00		
+3109	YMA Comdty	YTT	3-Year Australian @SFE	FUT		Financial/Bonds	SFE	AUD	3013	0.01	1	[001001001001]	0	0	-10	YT	SNFE	AU	Australia/Sydney	11	8:30	16:30		
+3110	XMA Comdty	YTC	10-Year Australian@SFE	FUT		Financial/Bonds	SFE	AUD	9000	0.005	1	[001001001001]	0	0	-10	XT	SNFE	AU	Australia/Sydney	11	8:32	16:30		
+3111	KEA Comdty	KTB	3-Year Korea@KFE	FUT		Financial/Bonds	KFE	KRW	1000000	0.01	1	[001001001001]	0	0	0	3KTB	KSE	KR	Asia/Seoul	9	9:00	15:15		
+3112	WNA Comdty	AUL	US Treasury Ultra Bond@CBT	FUT		Financial/Bonds	CBT	USD	1000	0.03125	1	[001001001001]	0	0	0	UB	ECBOT	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3113	CNA Comdty	CGB 	10-year Canadian Govt Bond@MSE	FUT		Financial/Bonds	MSE	CAD	1000	0.01	1	[001001001001]	0	0	0	CGB	CDE	CA	America/Montreal	-5	6:00	16:00		
+3114	XQA Comdty	CGF	5-year Canadian Govt Bond@MSE	FUT		Financial/Bonds	MSE	CAD	1000	0.01	1	[001001001001]	0	0	0	CGF	CDE	CA	America/Montreal	-5	6:00	16:00		
+3115	IKA Comdty	FBTP	10-year Italian Govt Bond@EUX	FUT		Financial/Bonds	EUX	EUR	1000	0.01	1	[001001001001]	0	0	0	BTP	DTB	DE	Europe/Berlin	1	8:00	19:00		
+3116	OATA Comdty	FOAT	French Govt Bond@EUX	FUT		Financial/Bonds	EUX	EUR	1000	0.01	1	[001001001001]	0	0	0	OAT	DTB	DE	Europe/Berlin	1	8:00	19:00		
+3117	JBA Comdty	JGB	10-year Japan Govt Bond@TSE	FUT		Financial/Bonds	TSE	JPY	1000000	0.01	1	[001001001001]	0	0	0	JGB	TSEJ	JP	Asia/Tokyo	9	8:45	15:02		
+3118	KAAA Comdty	10TB	10-Year Korea Treasury Bond@KFE	FUT		Financial/Bonds	KFE	KRW	1000000	0.01	1	[001001001001]	0	0	0	FLKTB	KSE	KR	Asia/Seoul	9	9:00	15:15		
+3119	UBA Comdty	FGBX	Euro Buxl@EUX	FUT		Financial/Bonds	EUX	EUR	1000	0.02	1	[001001001001]	0	0	0	GBX	DTB	DE	Europe/Berlin	1	8:00	22:00	17:15:00-17:15:00	
+3120	BTSA Comdty	FBTS	3-year Italian Bond@EUX	FUT		Financial/Bonds	EUX	EUR	1000	0.01	1	[001001001001]	0	0	0	BTS	DTB	DE	Europe/Berlin	1	8:00	19:00		
+3121	SKA Comdty		5-year Swedish Govt Bonde@PMI	FUT		Financial/Bonds	PMI	SEK	53700	0.001	1	[001001001001]	0	0	0			SE	Europe/Stockholm	1	9:00	16:00		
+3122	SLA Comdty		2-year Swedish @PMI	FUT		Financial/Bonds	PMI	SEK	21100	0.001	1	[001001001001]	0	0	0			SE	Europe/Stockholm	1	9:00	17:20		
+3124	TFCA Comdty		5-year China Govt Bond@CFF	FUT		Financial/Bonds	CFF	CNY	10000	0.002	1	[001001001001]	0	0	0			CN	Asia/Shanghai	8	13:00	15:15		
+3201	DXA Curncy	DX	USD Index@FNX	FUT		Financial/Currency	FNX	USD	1000	0.005	1	[001001001001]	0	0	7	DX	NYBOT	US	America/New_York	-5	20:00	17:00	14:59:00-15:00:00	
+3202	RPA Curncy	RP	EUR/GBP@CME	FUT		Financial/Currency	CME	GBP	125000	0.00005	1	[001001001001]	0	0	7	RX	GLOBEX	US	America/Chicago	-6	7:20	14:00		
+3203	RYA Curncy	RY	EUR/JPY@CME	FUT		Financial/Currency	CME	JPY	125000	0.01	1	[001001001001]	0	0	7	RY	GLOBEX	US	America/Chicago	-6	17:00	16:00		
+3204	RFA Curncy	RF	EUR/CHF@CME	FUT		Financial/Currency	CME	CHF	125000	0.0001	1	[001001001001]	0	0	7	RF	GLOBEX	US	America/Chicago	-6	17:00	16:00		
+3205	JYA Curncy	JY	JPY/USD@CME	FUT		Financial/Currency	CME	USD	12500000	0.000001	1	[001001001001]	0	0	7	JPY	GLOBEX	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3206	ECA Curncy	URO	EUR/USD@CME	FUT		Financial/Currency	CME	USD	125000	0.0001	1	[001001001001]	0	0	7	EUR	GLOBEX	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3207	BPA Curncy	BP	GBP/USD@CME	FUT		Financial/Currency	CME	USD	62500	0.0001	1	[001001001001]	0	0	7	GBP	GLOBEX	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3208	ADA Curncy	AD	AUD/USD@CME	FUT		Financial/Currency	CME	USD	100000	0.0001	1	[001001001001]	0	0	7	AUD	GLOBEX	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3209	CDA Curncy	CD	CAD/USD@CME	FUT		Financial/Currency	CME	USD	100000	0.0001	1	[001001001001]	0	0	7	CAD	GLOBEX	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3210	PEA Curncy	MP	MXN/USD@CME	FUT		Financial/Currency	CME	USD	500000	0.000025	1	[001001001001]	0	0	7	MXP	GLOBEX	US	America/Chicago	-6	7:20	14:00		
+3211	SFA Curncy	SF	CHF/USD@CME	FUT		Financial/Currency	CME	USD	125000	0.0001	1	[001001001001]	0	0	7	CHF	GLOBEX	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3212	NVA Curncy	NE	NZD/USD@CME	FUT		Financial/Currency	CME	USD	100000	0.0001	1	[001001001001]	0	0	7	NZD	GLOBEX	US	America/Chicago	-6	7:20	14:00	13:59:30-14:00:00	
+3301	EDA Comdty	ED	Eurodollar 3Mon@CME	FUT		Financial/Interest Rate	CME	USD	2500	0.005	1	[001001001001]	0	0	-500	GE	GLOBEX	US	America/Chicago	-6	7:20	14:00		
+3302	L A Comdty	FSS	Sterling 90 day@LIF	FUT		Financial/Interest Rate	LIF	GBP	1250	0.01	1	[001001001001]	0	0	-500	L	LIFFE	GB	Europe/London	0	7:30	18:00		
+3303	ERA Comdty	FEI	Euribor 3Mon@LIF	FUT		Financial/Interest Rate	LIF	EUR	2500	0.005	1	[001001001001]	0	0	-500	I	LIFFE	GB	Europe/London	0	7:00	21:00		
+3304	BAA Comdty	BAX	Canadian Bank Bill@MSE	FUT		Financial/Interest Rate	MSE	CAD	2500	0.01	1	[001001001001]	0	0	-500	BAX	CDE	CA	America/Montreal	-5	6:00	16:00		
+3305	IRA Comdty	YBA	Australian Bank Bill@SFE	FUT		Financial/Interest Rate	SFE	AUD	2435	0.01	1	[001001001001]	0	0	-500	IR	SNFE	AU	Australia/Sydney	11	8:28	16:30		
+3306	RAA Comdty		Swedish IMM@PMI	FUT		Financial/Interest Rate	PMI	SEK	2516	0.0001	1	[001001001001]	0	0	-500			SE	Europe/Stockholm	1	8:30	17:00		
+3308	ESA Comdty	FES	Euroswiss 3 Mon@LIF	FUT		Financial/Interest Rate	LIF	CHF	2500	0.01	1	[001001001001]	0	0	-500	S	LIFFE	GB	Europe/London	0	7:30	18:00		
+3309	FFA Comdty	FF	FedFund 30 Day@CBT	FUT		Financial/Interest Rate	CBT	USD	4167	0.0025	1	[111111111111]	0	0	-500	ZQ	ECBOT	US	America/Chicago	-6	7:20	14:00		
+3310	IBA Comdty	YIB	Interbank Cash Rate 30 Day@SFE	FUT		Financial/Interest Rate	SFE	AUD	2466	0.005	1	[111111111111]	0	0	-500	IB	SNFE	AU	Australia/Sydney	11	8:34	16:30		
+3311	ZBA Comdty	NBB	New Zeal Bank Bill 3 mon@SFE	FUT		Financial/Interest Rate	SFE	NZD	2428	0.01	1	[001001001001]	0	0	-500			NZ	Australia/Sydney	13	6:30	4:30		
+3312	YEA Comdty	JEY	Euroyen Tibor 3 Mon@TFX	FUT		Financial/Interest Rate	TFX	JPY	250000	0.005	1	[001001001001]	0	0	-500			JP	Asia/Tokyo	9	8:45	20:00		
+3401	T A Comdty	FBO	5-year Euro Swapnote@LIF	FUT		Financial/Swap	LIF	EUR	1000	0.01	1	[001001001001]	0	0	0	O	LIFFE	GB	Europe/London	0	7:00	18:00		
+3402	CNPA Comdty	NI	10-Year Swap@CBT	FUT		Financial/Swap	CBT	USD	1000	0.015625	1	[001001001001]	0	0	0	N1U	ECBOT	US	America/Chicago	-6	7:20	14:00		
+3403	RWA Comdty	FBS	2-Year Euro Swapnote@LIF	FUT		Financial/Swap	LIF	EUR	1000	0.005	1	[001001001001]	0	0	0	TWS	LIFFE	GB	Europe/London	0	7:00	18:00		
+3404	CFPA Comdty	IR	5-Year Swapnote@CBT	FUT		Financial/Swap	CBT	USD	1000	0.015625	1	[001001001001]	0	0	0	F1U	ECBOT	US	America/Chicago	-6	7:20	14:00		
+3405	CBPA Comdty	NTT	30-Year Swapnote@CBT	FUT		Financial/Swap	CBT	USD	1000	0.03125	1	[001001001001]	0	0	0	B1U	ECBOT	US	America/Chicago	-6	7:20	14:00		
+3406	CTPA Comdty		2-Year Swapnote@CBT	FUT		Financial/Swap	CBT	USD	1000	0.0078125	1	[001001001001]	0	0	0			US	America/Chicago	-6	7:20	14:00		
+3407	P A Comdty	FBP	10-year Euro Swapnotge@LIF	FUT		Financial/Swap	LIF	EUR	1000	0.01	1	[001001001001]	0	0	0	P	LIFFE	GB	Europe/London	0	7:00	18:00		
+3501	ESA Index	ES	E-Mini@CME	FUT		Index/Equity Index	CME	USD	50	0.25	1	[001001001001]	0	0	9	ES	GLOBEX	US	America/Chicago	-6	17:00	16:15	15:14:30-15:15:00	
+3502	VGA Index	STXE	Euro Stoxx 50@EUX	FUT		Index/Equity Index	EUX	EUR	10	1	1	[001001001001]	0	0	0	ESTX50	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3503	NOA Index		Nikkei 225@OSE	FUT		Index/Equity Index	OSE	JPY	100	5	1	[111111111111]	0	0	-20	N255M	OSE.JPN	JP	Asia/Tokyo	9	9:00	15:15		
+3504	IFBA Index		CSI 300 China@CFF	FUT		Index/Equity Index	CFF	CNY	300	0.2	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	9:15	15:15		
+3505	NQA Index	NQ	Nasdaq 100 E-mini@CME	FUT		Index/Equity Index	CME	USD	20	0.25	1	[001001001001]	0	0	9	NQ	GLOBEX	US	America/Chicago	-6	17:00	16:15		
+3506	RTAA Index	TFS	Russell 2000 Mini@NYF	FUT		Index/Equity Index	NYF	USD	100	0.1	1	[001001001001]	0	0	0	TF	NYBOT	US	America/New_York	-5	20:00	18:00	16:14:00-16:15:00	
+3507	DMA Index	YM	DJ Industrial Average Mini@CBT	FUT		Index/Equity Index	CBT	USD	5	1	1	[001001001001]	0	0	0	YM	ECBOT	US	America/Chicago	-6	17:00	16:15		
+3508	CFA Index	FCE	CAC 40@EOP	FUT		Index/Equity Index	EOP	EUR	10	0.5	1	[111111111111]	0	0	0	CAC40	MONEP	FR	Europe/Paris	0	8:00	22:00		
+3509	KMA Index	KS	KOSPI200@KFE	FUT		Index/Equity Index	KFE	KRW	500000	0.05	1	[001001001001]	0	0	0	K200	KSE	KR	Asia/Seoul	9	9:00	15:15		
+3510	HCA Index	HCEI	Hang Seng China Enterprises@HKG	FUT		Index/Equity Index	HKG	HKD	50	1	1	[111111111111]	0	0	18	HHI.HK	HKFE	HK	Asia/Hong_Kong	8	9:15	16:15		
+3511	GXA Index	FDX	DAX Index@EUX	FUT		Index/Equity Index	EUX	EUR	25	0.5	1	[001001001001]	0	0	0	DAX	DTB	DE	Europe/Berlin	1	7:50	22:00	17:30:00-17:30:00	
+3512	XUA Index	SFC	FTSE China A50@SGX	FUT		Index/Equity Index	SGX	USD	1	5	1	[111111111111]	0	0	0	XINA50	SGX	CN	Asia/Singapore	8	9:00	16:00		
+3513	NIA Index	SSI	Nikkei 225@SGX	FUT		Index/Equity Index	SGX	JPY	500	5	1	[001001001001]	0	0	0	N225U	SGX	SG	Asia/Singapore	8	7:45	14:30		
+3514	Z A Index	FFI	FTSE 100@LIF	FUT		Index/Equity Index	LIF	GBP	10	0.5	1	[001001001001]	0	0	0	Z	LIFFE	GB	Europe/London	0	1:00	21:00		
+3515	HIA Index	HSI	Hang Seng@HKG	FUT		Index/Equity Index	HKG	HKD	50	1	1	[111111111111]	0	0	18	HSI	HKFE	HK	Asia/Hong_Kong	8	9:15	16:15		
+3516	TWA Index	STW	MSCI Taiwan@SGX	FUT		Index/Equity Index	SGX	USD	100	0.1	1	[111111111111]	0	0	0	STW	SGX	TW	Asia/Singapore	8	8:45	13:50		
+3517	NKA Index	JNI	Nikkei 225@OSE	FUT		Index/Equity Index	OSE	JPY	1000	10	1	[001001001001]	0	0	0	N225	OSE.JPN	JP	Asia/Tokyo	9	9:00	15:15		
+3518	IHA Index	SIN	CNX Nifty @SGX	FUT		Index/Equity Index	SGX	USD	2	0.5	1	[111111111111]	0	0	0	NIFTY	SGX	IN	Asia/Singapore	8	9:00	18:15		
+3519	NHA Index	NIY	Nikkei 225@CME	FUT		Index/Equity Index	CME	JPY	500	5	1	[001001001001]	0	0	9	NIY	GLOBEX	US	America/Chicago	-6	17:00	16:15		
+3520	EBA Index	FESA	Euro Stoxx 600 Auto@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	ESA	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3521	QCA Index	OMXH25	OMXS30@SSE	FUT		Index/Equity Index	SSE	SEK	100	0.25	1	[111111111111]	0	0	0	OMXS30	OMS	SE	Europe/Stockholm	1	9:00	17:25		
+3522	TPA Index	TLFI	TOPIX@TSE	FUT		Index/Equity Index	TSE	JPY	10000	0.5	1	[001001001001]	0	0	0	TOPX	TSEJ	JP	Asia/Tokyo	9	9:00	15:15		
+3523	SMA Index	FSMI	Swiss Index@EUX	FUT		Index/Equity Index	EUX	CHF	10	1	1	[001001001001]	0	0	0	SMI	SOFFEX	CH	Europe/Berlin	1	7:50	22:00		
+3524	QZA Index	SSG	MSCI Singapore@SGX	FUT		Index/Equity Index	SGX	SGD	200	0.1	1	[111111111111]	0	0	0	SSG	SGX	SG	Asia/Singapore	8	8:30	17:15		
+3525	NXA Index	NK	Nikkei 225@CME	FUT		Index/Equity Index	CME	USD	5	5	1	[001001001001]	0	0	9	NKD	GLOBEX	US	America/Chicago	-6	8:00	15:15		
+3526	HUA Index	HMH	Hang Seng Mini@HKG	FUT		Index/Equity Index	HKG	HKD	10	1	1	[111111111111]	0	0	0	MHI	HKFE	HK	Asia/Hong_Kong	8	9:15	16:15		
+3527	MESA Index	MEM	MSCI Emerging Market@NYL	FUT		Index/Equity Index	NYL	USD	50	0.1	1	[001001001001]	0	0	0	MXEF	NYSELIFFE	US	America/New_York	-5	19:16	17:00		
+3528	XPA Index	YAP	ASX SPI 200@SFE	FUT		Index/Equity Index	SFE	AUD	25	1	1	[001001001001]	0	0	0	SPI	SNFE	AU	Australia/Sydney	11	9:50	16:30		
+3529	DEDA Index	FEXD	Euro Stoxx 50 DVD@EUX	FUT		Index/Equity Index	EUX	EUR	100	0.1	1	[000000000001]	0	0	0	DESX5	DTB	DE	Europe/Berlin	1	8:30	22:00		
+3530	FAA Index	DM	SP400 E-Mini@CME	FUT		Index/Equity Index	CME	USD	100	0.1	1	[001001001001]	0	0	9	EMD	GLOBEX	US	America/Chicago	-6	17:00	16:15		
+3531	CAA Index	FESB	Euro STOXX Banks@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SX7E	DTB	DE	Europe/Berlin	1	7:50	22:00	17:30:00-17:30:00	
+3532	EOA Index		Amsterdam Index@EOE	FUT		Index/Equity Index	EOE	EUR	200	0.05	1	[111111111111]	0	0	0	EOE	FTA	NL	Europe/Amsterdam	1	8:00	22:00		
+3533	TMIA Index		Mini TOPIX@TSE	FUT		Index/Equity Index	TSE	JPY	1000	0.25	1	[001001001001]	0	0	0	MNTPX	TSEJ	JP	Asia/Tokyo	9	9:00	15:15		
+3534	NMA Index	FESM	Euro Stoxx Mdia@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	ESM	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3535	PTA Index	SXF	SP Toronto 60@MSE	FUT		Index/Equity Index	MSE	CAD	200	0.1	1	[001001001001]	0	0	0	TSE60	TSE	CA	America/Montreal	-5	6:00	16:15		
+3536	MHCA Index	HMCE	Hang Seng China Enterprises Mini@HKG	FUT		Index/Equity Index	HKG	HKD	10	1	1	[111111111111]	0	0	0	MCH.HK	HKFE	HK	Asia/Hong_Kong	8	9:15	16:15		
+3537	QRA Index	FESE	Euro Stoxx Oil & Gas@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	ESE	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3538	MFSA Index	MFS	mini MSCI EAFE Index@NYL	FUT		Index/Equity Index	NYL	USD	50	0.1	1	[001001001001]	0	0	0	MXEA	NYSELIFFE	US	America/New_York	-5	19:16	17:00		
+3539	SXEA Index	FSCE	Euro Stoxx Small@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	DJESS	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3540	WZA Index	FEST	Stoxx Telecom@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXKE	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3541	UKDA Index	LXZ	FTSE 100 Dividend Index @LIF	FUT		Index/Equity Index	LIF	GBP	10	0.1	1	[000000000001]	0	0	0	F1DV	LIFFE	GB	Europe/London	0	8:00	16:30		
+3542	ITA Index	FESU	Euro Stoxx Utilities@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	ESU	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3543	RXDA Index	FRDX	RDXUSD Index@EUX	FUT		Index/Equity Index	EUX	USD	10	0.5	1	[001001001001]	0	0	0	RDXUSD	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3544	VHA Index	STXX	Stoxx 50@EUX	FUT		Index/Equity Index	EUX	EUR	10	1	1	[001001001001]	0	0	0	STX	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3545	SXA Index	FSTA	Stoxx 600 Auto & Part@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXAP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3546	BJA Index	FSTB	Stoxx 600 Banks@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SX7P	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3547	DHCA Index	DHH	HSCEI Dividend Point Index@HKG	FUT		Index/Equity Index	HKG	HKD	50	0.01	1	[000000000001]	0	0	0	HHIDPI	HKFE	HK	Asia/Hong_Kong	8	13:00	16:15		
+3548	JSA Index	FSTS	Stoxx 600 Basic Resources@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXPP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3549	RMA Index	RMF	Russell 1000 Mini@NYF	FUT		Index/Equity Index	NYF	USD	100	0.1	1	[001001001001]	0	0	0	RYO	NYBOT	US	America/New_York	-5	20:00	18:00		
+3550	PFA Index	FSTO	Stoxx 600 Food & Beverage@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SX3P	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3551	MNDA Index		Nikkei Dividend @SGX	FUT		Index/Equity Index	SGX	JPY	10000	0.1	1	[000000000001]	0	0	0	NKYDIV	SGX	JP	Asia/Singapore	8	7:45	18:00		
+3552	HGA Index	FSTH	Stoxx Healthcare@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	-15	SXDP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3553	IDOA Index		MSCI Indonesia @SGX	FUT		Index/Equity Index	SGX	USD	2	5	1	[111111111111]	0	0	0	MXID	SGX	SG	Asia/Singapore	8	9:00	17:30		
+3554	QBA Index	FSTG	Stoxx 600 Industrial@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXNP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3555	MFA Index	HMCE	DAX mid-cap@EUX	FUT		Index/Equity Index	EUX	EUR	5	1	1	[001001001001]	0	0	0	MDAX	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3556	JVA Index	FSTI	STOXX 600 Insurance@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXIP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3558	OMA Index	FSTM	Stoxx 600 Media@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXMP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3559	KGA Index	FSTE	Stoxx 600 Oil & Gas@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXEP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3560	RVBA Index	IRV	Russell 1000 value@NYF	FUT		Index/Equity Index	NYF	USD	100	0.1	1	[001001001001]	0	0	0	RLV	NYBOT	US	America/New_York	-5	20:00	18:00		
+3561	WQA Index	FSTT	Stoxx 600 Telecom@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SXKP	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3562	GPA Index	FSTU	Stoxx 600 Utilities@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	SX6P	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3563	SXPA Index	FLCP	Stoxx Europe Large 200@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	DJ200L	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3564	MPTA Index	FCS	Mini SP Toronto 60@MSE	FUT		Index/Equity Index	MSE	CAD	50	0.1	1	[001001001001]	0	0	0			CA	America/Montreal	-5	6:00	16:15		
+3565	SXTA Index	FMCE	Stoxx Europe Small 200@EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	DJ200S	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3566	MDA Index	MD	S&P Mid-cap@CME	FUT		Index/Equity Index	CME	USD	500	0.05	1	[001001001001]	0	0	9	EMD	GLOBEX	US	America/Chicago	-6	8:30	15:15		
+3567	RGAA Index	IRG	Russell 1000 Growth@NYF	FUT		Index/Equity Index	NYF	USD	100	0.1	1	[001001001001]	0	0	0	RLG	NYBOT	US	America/New_York	-5	20:00	18:00		
+3568	DJA Index	DJ	DJ Industrial Average@CBT	FUT		Index/Equity Index	CBT	USD	10	1	1	[001001001001]	0	0	0	INDU	ECBOT	US	America/Chicago	-6	8:30	15:15		
+3569	SXOA Index	FXXP	Stoxx 600 @EUX	FUT		Index/Equity Index	EUX	EUR	50	0.1	1	[001001001001]	0	0	0	DJ600	DTB	DE	Europe/Berlin	1	7:50	22:00		
+3570	STA Index		Italian Index@MIL	FUT		Index/Equity Index	MIL	EUR	5	5	1	[001001001001]	0	0	0	FTMIB	IDEM	IT	Europe/Rome	1	9:00	17:40		
+3572	XBA Index	WIN	Brazil Index@BMF	FUT		Index/Equity Index	BMF	BRL	0.2	5	1	[010101010101]	0	0	0	IBOV	BOVESPA	BR	America/Noronha	-2	9:00	17:55		
+3575	AIA Index	ALSI	South African Index@SAF	FUT		Index/Equity Index	SAF	ZAR	10	1	1	[001001001001]	0	0	0	TOP40	HKFE	ZA	Africa/Johannesburg	2	8:30	17:30		
+3576	IBA Index	MFXI	Spain Index@MFM	FUT		Index/Equity Index	MFM	EUR	10	1	1	[111111111111]	0	0	0	IBEX35	MEFFRV	ES	Europe/Madrid	1	9:00	20:00		
+3579	OIA Index		Norwegian Index@OBX	FUT		Index/Equity Index	OBX	NOK	100	0.1	1	[111111111111]	0	0	0			NO	Europe/Oslo	1	8:30	16:20		
+3580	MCEA Index	MEE	MSCI Europe Index Mini@NYL	FUT		Index/Equity Index	NYL	EUR	200	0.01	1	[001001001001]	0	0	0	MSPE	NYSELIFFE	GB	America/New_York	-5	3:00	17:00		
+3581	ISA Index		Mexican Index@MDX	FUT		Index/Equity Index	MDX	MXN	10	5	1	[001001001001]	0	0	0	IPC	MEXI	MX	America/Bahia_Banderas	-6	7:30	15:00		
+3601	UXA Index	VX	CBOE VIX@CBF	FUT		Index/Non-equity Index	CBF	USD	1000	0.05	1	[111111111111]	0	0	0	VIX	CFE	US	America/Chicago	-6	2:00	15:15		
+3602	FVSA Index	FVS	Vstoxx Mini@EUX	FUT		Index/Non-equity Index	EUX	EUR	100	0.05	1	[111111111111]	0	0	0	V2TX	DTB	DE	Europe/Berlin	1	8:50	17:30		
+4101	RBTA Comdty		Steel Rebar@SHF	FUT		Metal and Industrial/Base Metal	SHF	CNY	10	1	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4102	CUA Comdty		Copper@SHF	FUT		Metal and Industrial/Base Metal	SHF	CNY	5	10	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	9:00	15:00		
+4103	IOEA Comdty		Iron Ore@DCE	FUT		Metal and Industrial/Base Metal	DCE	CNY	100	1	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4104	ZNAA Comdty		Zinc@SHF	FUT		Metal and Industrial/Base Metal	SHF	CNY	5	5	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	9:00	15:00		
+4105	LAA Comdty		Alumninum@LME	FFWD	LME:3MO	Metal and Industrial/Base Metal	LME	USD	25	0.25	1	[111111111111]	0	0	0			GB	Europe/London	0	20:00	19:45		
+4106	HGA Comdty	HG	Copper@CMX	FUT		Metal and Industrial/Base Metal	CMX	USD	25000	0.0005	1	[001010101001]	0	0	0	HG	NYMEX	US	America/New_York	-5	8:10	13:00	12:59:30-13:00:00	
+4107	LPA Comdty		Copper@LME	FFWD	LME:3MO	Metal and Industrial/Base Metal	LME	USD	25	0.5	1	[111111111111]	0	0	0			GB	Europe/London	0	20:00	19:45		
+4108	LXA Comdty		Zinc@LME	FFWD	LME:3MO	Metal and Industrial/Base Metal	LME	USD	25	0.5	1	[111111111111]	0	0	0			GB	Europe/London	0	20:00	19:45		
+4109	AAA Comdty		Alumninum@SHF	FUT		Metal and Industrial/Base Metal	SHF	CNY	5	5	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	9:00	15:00		
+4110	LNA Comdty		Nickel@LME	FFWD	LME:3MO	Metal and Industrial/Base Metal	LME	USD	6	1	1	[111111111111]	0	0	0			GB	Europe/London	0	20:00	19:45		
+4111	LLA Comdty		Lead@LME	FFWD	LME:3MO	Metal and Industrial/Base Metal	LME	USD	25	0.5	1	[111111111111]	0	0	0			GB	Europe/London	0	20:00	19:45		
+4112	LKA Comdty		NASAAC@LME	FFWD	LME:3MO	Metal and Industrial/Base Metal	LME	USD	20	0.5	1	[111111111111]	0	0	0			GB	Europe/London	0	20:00	19:45		
+4113	LTA Comdty		Tim@LME	FFWD	LME:3MO	Metal and Industrial/Base Metal	LME	USD	5	5	1	[111111111111]	0	0	0			GB	Europe/London	0	20:00	19:45		
+4114	PBLA Comdty		Lead@SHF	FUT		Metal and Industrial/Base Metal	SHF	CNY	5	5	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	9:00	15:00		
+4201	RTA Comdty		Rubber@SHF	FUT		Metal and Industrial/Industrial Materials	SHF	CNY	10	5	1	[101111111110]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4202	FGLA Comdty		ZCE Glass @ZCE	FUT		Metal and Industrial/Industrial Materials	ZCE	CNY	20	1	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4203	POLA Comdty	HMCE	Polyethylene@DCE	FUT		Metal and Industrial/Industrial Materials	DCE	CNY	5	5	1	[101010101000]	0	0	-30			CN	Asia/Shanghai	8	13:30	15:00		
+4204	PTA Comdty		Pure Terephthalic Acid@ZCE	FUT		Metal and Industrial/Industrial Materials	ZCE	CNY	5	2	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4205	BLCA Comdty		Blockboard@DCE	FUT		Metal and Industrial/Industrial Materials	DCE	CNY	500	0.05	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4206	FREA Comdty		Fibreboard@DCE	FUT		Metal and Industrial/Industrial Materials	DCE	CNY	500	0.05	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4207	ZMEA Comdty		Methanol @ZCE	FUT		Metal and Industrial/Industrial Materials	ZCE	CNY	50	1	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	13:30	15:00		
+4208	JNA Comdty	JRU	Rubber@TCM	FUT		Metal and Industrial/Industrial Materials	TCM	JPY	5000	0.1	1	[111111111111]	0	0	0	TSR20	SGX	JP	Asia/Tokyo	9	9:00	15:30		
+4209	PVCA Comdty	DPV	Polyvinyl Chloride@DCE	FUT		Metal and Industrial/Industrial Materials	DCE	CNY	5	5	1	[101010001010]	0	0	-30			CN	Asia/Shanghai	8	13:30	15:00		
+4210	LBA Comdty	LB	Lumber@CME	FUT		Metal and Industrial/Industrial Materials	CME	USD	110	0.1	1	[101010101010]	0	0	0	LB	GLOBEX	US	America/Chicago	-6	9:00	13:05	13:04:30-13:05:00	
+4301	SAIA Comdty		Silver @SHF	FUT		Metal and Industrial/Precious Metal	SHF	CNY	15	1	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	9:00	15:00		
+4302	AUAA Comdty		Gold@SHF	FUT		Metal and Industrial/Precious Metal	SHF	CNY	1000	0.05	1	[111111111111]	0	0	0			CN	Asia/Shanghai	8	9:00	15:00		
+4303	GCA Comdty	GC	Gold @CMX	FUT		Metal and Industrial/Precious Metal	CMX	USD	100	0.1	1	[010101010101]	0	0	0	GC	NYMEX	US	America/New_York	-5	8:20	13:30	13:29:30-13:30:00	
+4304	SIA Comdty	SI	Silver @CMX	FUT		Metal and Industrial/Precious Metal	CMX	USD	5000	0.005	1	[101010101001]	0	0	-4	SI	NYMEX	US	America/New_York	-5	8:25	13:25	13:24:00-13:25:00	
+4305	JGA Comdty	JAU	Gold@TCM	FUT		Metal and Industrial/Precious Metal	TCM	JPY	1000	1	1	[010101010101]	0	0	0			JP	Asia/Tokyo	9	9:00	15:30		
+4306	JAA Comdty	JPL	Platinum@TCM	FUT		Metal and Industrial/Precious Metal	TCM	JPY	500	1	1	[010101010101]	0	0	0			JP	Asia/Tokyo	9	9:00	15:30		
+4307	PLA Comdty	PL	Platinum@NYM	FUT		Metal and Industrial/Precious Metal	NYM	USD	50	0.1	1	[100100100100]	0	0	0	PL	NYMEX	US	America/New_York	-5	8:20	13:05	13:03:00-13:05:00	
+4309	PAA Comdty	PA	Palladium@NYM	FUT		Metal and Industrial/Precious Metal	NYM	USD	100	0.05	1	[001001001001]	0	0	0	PA	NYMEX	US	America/New_York	-5	8:30	13:00	12:58:00-13:00:00	
+4314	JIA Comdty	JSV	Silver @TCM	FUT		Metal and Industrial/Precious Metal	TCM	JPY	10000	0.1	1	[010101010101]	0	0	0			JP	Asia/Tokyo	9	9:00	15:30		
+4315	JMA Comdty	JPA	Palladium@TCM	FUT		Metal and Industrial/Precious Metal	TCM	JPY	500	1	1	[010101010101]	0	0	0			JP	Asia/Tokyo	9	9:00	15:30		
